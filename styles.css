@@ -1,0 +1,38 @@
+
+@font-face {
+        font-family: 'Bariol_Regular'; 
+        src: url('Bariol_Regular.otf');
+}
+
+@font-face {
+        font-family: 'Bariol_Bold'; 
+        src: url('Bariol_Bold.otf');
+}
+
+
+* { 
+        margin:0; padding:0; box-sizing:border-box; 
+}
+
+
+#title {
+        padding: 60px 60px 30px 60px;
+        font-size: 40px;
+        color: #663333;
+        font-family: 'Bariol_Bold';
+}
+
+.subTitle {
+        padding: 20px 60px 20px 60px;
+        font-size: 30px;
+        color: #996666;
+        font-family: 'Bariol_Bold';
+
+}
+
+.content {
+        padding: 0px 60px 30px 60px;
+        font-size: 25px;
+        color: #333333;
+        font-family: 'Bariol_Regular';
+}
