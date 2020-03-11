@@ -1,12 +1,13 @@
 
+
 @font-face {
-        font-family: 'Bariol_Regular'; 
-        src: url('Bariol_Regular.otf');
+        font-family: 'OpenSans'; 
+        src: url('OpenSans-Regular.ttf');
 }
 
 @font-face {
-        font-family: 'Bariol_Bold'; 
-        src: url('Bariol_Bold.otf');
+        font-family: 'OpenSans-Semibold'; 
+        src: url('OpenSans-Semibold.ttf');
 }
 
 
@@ -15,24 +16,41 @@
 }
 
 
-#title {
+img {
+        height: auto;
+        width: 85%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+}
+
+iframe {
+        padding-top: 80px;
+        padding-bottom: 80px;
+}
+
+a {
+        text-align: center;
+        color: #46bcd8;
+}
+
+.title {
         padding: 60px 60px 30px 60px;
-        font-size: 40px;
-        color: #663333;
-        font-family: 'Bariol_Bold';
+        font-size: 60px;
+        color: #343434;
+        font-family: 'OpenSans-Semibold';
 }
 
 .subTitle {
-        padding: 20px 60px 20px 60px;
-        font-size: 30px;
-        color: #996666;
-        font-family: 'Bariol_Bold';
-
+        padding: 80px 60px 20px 60px;
+        font-size: 50px;
+        text-align: center;
+        color: #343434;
+        font-family: 'OpenSans-Semibold';
 }
 
 .content {
-        padding: 0px 60px 30px 60px;
-        font-size: 25px;
-        color: #333333;
-        font-family: 'Bariol_Regular';
+        padding: 20px 60px 20px 60px;
+        font-size: 40px;
+        color: #4d4d4d;
+        font-family: 'OpenSans';
 }
